@@ -1,0 +1,33 @@
+body{
+  background:rgb(224, 224, 224);
+  font-family:Arial;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.app{
+  background:black;
+  color:rgb(0, 255, 255);
+  width:350px;
+  padding:10px;
+  border-radius:10px;
+}
+
+#chat{
+  height:300px;
+  overflow:auto;
+  border:1px solid rgb(0, 153, 255);
+  margin-bottom:10px;
+  padding:5px;
+}
+
+input,button{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  background:black;
+  color:rgb(0, 247, 255);
+  border:1px solid rgb(0, 162, 255);
+}
