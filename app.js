@@ -7,7 +7,7 @@ async function enviar(){
   mostrar("<b>Tú:</b> "+msg);
 
   try{
-    const r = await fetch("http://localhost:3001/ia",{
+    const r = await fetch("http://192.168.1.8:3001/ia",{
       method:"POST",
       headers:{ "Content-Type":"application/json" },
       body: JSON.stringify({ msg })
